@@ -36,7 +36,7 @@ class Address
     InetSocketAddress toInetSocketAddress()
     {
         InetSocketAddress address = new InetSocketAddress(mHost, mPort);
-        String str address.toString();
+        String str = address.toString();
         return address;
     }
 
